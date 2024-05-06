@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>web-based calculator</title>
+</head>
+<body>
+    <form>
+        <table>
+                <input type="text"  name="display" placeholder="0">
+             </tr> 
+            <tr>
+                <td> <button value="7" onclick="display.value += '7' " > 7</button></td>
+                <td> <button value="8"> 8</button></td>
+                <td> <button value="9">9</button></td>
+                <td> <button value="&div">&div;</button></td>
+            </tr>
+            <tr>
+                <td> <button> 4</button></td>
+                <td> <button> 5</button></td>
+                <td> <button>6</button></td>
+                <td> <button>&times;</button></td>
+            </tr>
+            <tr>
+                <td> <button> 1</button></td>
+                <td> <button> 2</button></td>
+                <td> <button>3</button></td>
+                <td> <button>&minus;</button></td>
+            </tr>
+            <tr>
+                <td> <button> 0</button></td>
+                <td> <button> &bull;</button></td>
+                <td> <button>&plus;</button></td>
+                <td> <button class="equals">&equals;</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    color: #363434;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: #606168;
+    width: 730px;
+    height: 928px; 
+    padding: 40px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 40px;
+}
+
+input{
+    text-align: end; 
+    width: 650px;
+    height: 148px;
+    border: none;
+    border-radius: 18px;
+    background-color: #CFD6E1;
+    box-shadow: 2px 20px #C2C7D3;
+    margin: 0 0 66px 0; 
+    padding: 18px; 
+}
+button{
+    width: 128px;
+    height: 128px;
+    border-radius: 16px;
+    border: none;
+    margin: 16px 18px;
+    padding: 4px;
+    box-shadow: 2px 12px #E4E4E4;
+    cursor: pointer;
+}
+
+.equals{
+    background-color: #F99734;
+     box-shadow: 2px 20px #E08339; 
+     cursor: pointer;
+}
